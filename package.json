@@ -1,0 +1,25 @@
+{
+  "name": "vue-pure-css-parallax",
+  "version": "0.0.0",
+  "description": "Vue.js parallax plugin base on http://keithclark.co.uk/articles/pure-css-parallax-websites/",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skilFullGH/vue-pure-css-parallax.git"
+  },
+  "keywords": [
+    "vuejs",
+    "pure",
+    "css",
+    "parallax"
+  ],
+  "author": "skilFullGH",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/skilFullGH/vue-pure-css-parallax/issues"
+  },
+  "homepage": "https://github.com/skilFullGH/vue-pure-css-parallax#readme"
+}
