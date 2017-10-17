@@ -1,10 +1,25 @@
 @import 'variables';
 
+.parallax {
+  perspective: $perspective;
+  perspective-origin: $perspective-origin;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.parallax-group {
+  position: relative;
+  height: 100vh;
+  transform-style: preserve-3d;
+  transition: transform 0.5s;
+}
+
 .parallax-layer {
   position: absolute;
   top: 0;
   right: 0;
   bottom: 0;
   left: 0;
-  transform-origin: 0 50%;
+  transform-origin: $transform-origin;
 }

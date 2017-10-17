@@ -9,15 +9,15 @@
     props: {
       depth: {
         type: [Number, String],
-        'default': 0
+        default: 0
       },
       scale: {
         type: [Number, String],
-        'default': 1
+        default: 1
       },
       zIndex: {
         type: Number,
-        'default': 1
+        default: 1
       }
     },
     data () {
