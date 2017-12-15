@@ -21,3 +21,14 @@
     }
   }
 </script>
+
+<style lang="scss">
+    @import '../assets/scss/variables';
+
+    .b-parallax__group {
+        position: relative;
+        height: 100vh;
+        transform-style: preserve-3d;
+        transition: transform 0.5s;
+    }
+</style>

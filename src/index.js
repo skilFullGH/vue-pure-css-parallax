@@ -1,4 +1,4 @@
-// import Parallax from './components/Parallax.vue'
+import Parallax from './components/Parallax.vue'
 // import ParallaxGroup from './components/ParallaxGroup.vue'
 // import ParallaxLayer from './components/ParallaxLayer.vue'
 

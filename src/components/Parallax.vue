@@ -21,3 +21,15 @@
     }
   }
 </script>
+
+<style lang="scss">
+    @import '../assets/scss/variables';
+
+    .b-parallax {
+        perspective: $perspective;
+        perspective-origin: $perspective-origin;
+        height: 100vh;
+        overflow-x: hidden;
+        overflow-y: auto;
+    }
+</style>
