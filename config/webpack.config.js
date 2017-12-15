@@ -1,6 +1,6 @@
-const webpack = require('webpack');
-const merge = require('webpack-merge');
-const path = require('path');
+const webpack = require('webpack')
+const merge = require('webpack-merge')
+const path = require('path')
 const babel = require('./babel')
 const vue = require('./vue')
 
@@ -46,4 +46,4 @@ module.exports = [
       umdNamedDefine: true
     }
   })
-];
+]
