@@ -1,7 +1,7 @@
 {
   "name": "vue-pure-css-parallax",
   "version": "0.0.0",
-  "description": "Vue.js parallax plugin base on http://keithclark.co.uk/articles/pure-css-parallax-websites/",
+  "description": "Vue.js parallax plugin base on http://keithclark.co.uk/articles/pure-css-parallax-websites/.",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config config/webpack.config.js",
@@ -40,7 +40,7 @@
     "mocha": "^4.0.1",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
-    "vue-loader": "^13.5.0",
+    "vue-loader": "^13.6.0",
     "vue-template-compiler": "^2.5.11",
     "webpack": "^3.10.0",
     "webpack-merge": "^4.1.1"
