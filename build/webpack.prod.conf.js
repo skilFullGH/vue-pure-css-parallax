@@ -1,8 +1,8 @@
 const webpack = require('webpack')
 const merge = require('webpack-merge')
 const path = require('path')
-const babel = require('./babel')
-const vue = require('./vue')
+const babel = require('../config/babel')
+const vue = require('../config/vue')
 
 const dir = path.join(__dirname, '..')
 

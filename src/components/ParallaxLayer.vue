@@ -1,11 +1,13 @@
 <template>
-    <div class="parallax-layer" :style="style">
+    <div class="b-parallax__layer" :style="style">
         <slot></slot>
     </div>
 </template>
 
 <script>
   export default {
+    name: 'ParallaxLayer',
+    componentName: 'ParallaxLayer',
     props: {
       depth: {
         type: [Number, String],

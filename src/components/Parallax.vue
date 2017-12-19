@@ -1,11 +1,13 @@
 <template>
-    <div class="parallax" :style="style">
+    <div class="b-parallax" :style="style">
         <slot></slot>
     </div>
 </template>
 
 <script>
   export default {
+    name: 'Parallax',
+    componentName: 'Parallax',
     props: {
       height: {
         type: [Number, String],

@@ -1,11 +1,13 @@
 <template>
-    <div class="parallax-group" :style="style">
+    <div class="b-parallax__group" :style="style">
         <slot></slot>
     </div>
 </template>
 
 <script>
   export default {
+    name: 'ParallaxGroup',
+    componentName: 'ParallaxGroup',
     props: {
       zIndex: {
         type: Number,
